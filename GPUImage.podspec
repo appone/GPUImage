@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'An open source iOS framework for GPU-based image and video processing.'
   s.homepage = 'https://github.com/BradLarson/GPUImage'
   s.author   = { 'Brad Larson' => 'contact@sunsetlakesoftware.com' }
-  s.source   = { :git => 'https://github.com/pwangco/GPUImage.git', :branch => "#{s.version}" }
+  s.source   = { :git => 'https://github.com/appone/GPUImage.git', :branch => "#{s.version}" }
   
   s.source_files = 'framework/Source/**/*.{h,m}'
   s.resources = 'framework/Resources/*.png'
